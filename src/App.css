@@ -1,0 +1,110 @@
+.text__icon {
+  color: var(--primary);
+}
+
+.text__icon h4 {
+  font-size: var(--text-24);
+  font-weight: var(--font-bold);
+  margin-right: 40px;
+}
+
+.text__icon a {
+  font-size: var(--text-16);
+  font-weight: var(--font-medium);
+}
+
+.text__icon a.active {
+  color: var(--secondary);
+}
+
+button {
+  padding: 10px 24px;
+  background-color: var(--secondary);
+  border-radius: 8px;
+  color: var(--white);
+}
+
+button:disabled {
+  background-color: rgba(7, 202, 154, 0.35);
+}
+
+input {
+  font-size: var(--text-18);
+}
+
+input[type="text"], input[type="password"], textarea, select { 
+  outline: none;
+}
+
+.home {
+  padding-top: 96px;
+}
+
+.home h1 {
+  font-size: var(--text-62);
+  font-weight: var(--font-bold);
+  color: var(--primary);
+}
+
+.home .caption {
+  font-size: var(--text-24);
+  font-weight: var(--font-medium);
+  color: var(--light);
+}
+
+.home .result {
+  padding-top: 40px;
+}
+
+.home .result p {
+  font-size: var(--text-14);
+  font-weight: var(--medium);
+  color: var(--light);
+}
+
+.home .result a {
+  font-size: var(--text-18);
+  font-weight: var(--font-medium);
+  color: var(--primary);
+}
+
+.home .btnSubmit {
+font-size: var(--text18);
+}
+
+.home .about__title {
+  margin-bottom: 66px;
+}
+
+.home .about__small {
+  font-size: var(--text-18);
+  font-weight: var(--font-medium);
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  
+  .home h1 {
+    font-size: var(--text-42);
+    font-weight: var(--font-bold);
+    color: var(--primary);
+  }
+
+  .home .caption {
+    font-size: var(--text-16);
+    font-weight: var(--font-medium);
+    color: var(--light);
+  }
+  
+  .home .result {
+    padding-top: 30px;
+  }
+  
+input {
+  font-size: var(--text-14);
+  color: var(--lighter);
+}
+.home .btnSubmit {
+  font-size: var(--text-14);
+  }
+}
