@@ -18,14 +18,14 @@
 }
 
 button {
-  padding: 10px 24px;
-  background-color: var(--secondary);
-  border-radius: 8px;
-  color: var(--white);
+  padding: 10px 24px !important;
+  background-color: var(--secondary) !important;
+  border-radius: 8px !important;
+  color: var(--white) !important;
 }
 
 button:disabled {
-  background-color: rgba(7, 202, 154, 0.35);
+  background-color: rgba(7, 202, 154, 0.35) !important;
 }
 
 input {
